@@ -6,7 +6,7 @@
 body {
     background-image: url('hand-1850120_960_720.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% ;
 }
 
 .navbar {
