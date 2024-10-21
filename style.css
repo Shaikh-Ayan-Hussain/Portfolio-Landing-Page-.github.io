@@ -4,10 +4,10 @@
 }
 
 body {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.473),rgba(0, 0, 0, 0.466)) ,url('hand-1850120_960_720.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.466)), url('hand-1850120_960_720.jpg');
     background-repeat: no-repeat;
-    background-size: 100% ;
-    background-position:center;
+    background-size: 100%;
+    background-position: center;
     background-attachment: fixed;
 }
 
@@ -58,7 +58,7 @@ body {
 .listitems:hover {
     cursor: pointer;
     text-decoration: underline;
-    color:goldenrod;
+    color: goldenrod;
 }
 
 .searchbar {
@@ -114,12 +114,12 @@ body {
 }
 
 .card {
-    /* box-shadow: 3px 6px 7px 8px  rgba(0, 0, 0, 0.74); */
-    background-color: rgba(0, 0, 0, 0.795);
+    /* width: 300px; */
+    background-color: rgba(0, 0, 0, 0.562);
     font-family: sans-serif;
-   /* border: 1px solid white; */
+    /* border: 1px solid ; */
     width: 100%;
-    height: 60vh;
+    height: 57vh;
     /* align-items: center; */
     justify-content: center;
     /* display: flex; */
@@ -143,51 +143,74 @@ body {
     display: inline-block;
     box-shadow: 2px 5px 4px gray;
 }
-.q{
+
+.q {
     color: red;
 }
-.a{
+
+.a {
     text-decoration: none;
     color: rgb(240, 240, 240);
-    border:none;
-    padding: 4px 62px;
+    border: none;
+    padding: 3px 79px;
     /* margin-top: 60px; */
-    background-color: rgb(11, 7, 117);
-     font-size: 35px;
-     border-radius: 10px;
+    background-color: rgb(52, 4, 83);
+    font-size: 28px;
+    border-radius: 10px;
 }
-.email{
-     margin-top: 35px;
-     border: none;
-     box-sizing: content-box;
-     padding: 14px 48px;
-     background: transparent;
-     font-size: 16px;
-     color: white;
-     text-align:left;
- border-bottom: 2px solid red;
-}
-.pass{
+
+.email {
     margin-top: 35px;
-     border: none;
-     box-sizing: content-box;
-     padding: 14px 48px;
-     background: transparent;
-     font-size: 16px;
-     color: white;
-     text-align:left;
- border-bottom: 2px solid red;
+    border: none;
+    box-sizing: content-box;
+    padding: 14px 48px;
+    background: transparent;
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    border-bottom: 2px solid red;
 }
-.login{
+
+.pass {
+    margin-top: 35px;
+    border: none;
+    box-sizing: content-box;
+    padding: 14px 48px;
+    background: transparent;
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    border-bottom: 2px solid red;
+}
+
+.login {
     text-decoration: none;
-    color:rgb(11, 7, 117);
-    border:none;
-    padding: 4px 105px;
+    color: rgb(64, 4, 104);
+    border: none;
+    padding: 0px 105px;
     /* color: white; */
     /* margin-top: 60px; */
     background-color: rgb(255, 255, 255);
-     font-size: 35px;
-     border-radius: 10px;
-     margin-top: 35px;
+    font-size: 35px;
+    border-radius: 10px;
+    margin-top: 23px;
+    cursor: pointer;
+}
 
+.ac {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+.s {
+    text-align: center;
+    margin-left: 95px;
+    color: rgb(164, 73, 224);
+
+}
+
+.z {
+    color: white;
+    text-decoration: none;
 }
