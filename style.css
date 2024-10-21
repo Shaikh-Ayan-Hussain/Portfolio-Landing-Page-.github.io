@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('hand-1850120_960_720.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.473),rgba(0, 0, 0, 0.466)) ,url('hand-1850120_960_720.jpg');
     background-repeat: no-repeat;
     background-size: 100% ;
     background-position:center;
@@ -114,19 +114,20 @@ body {
 }
 
 .card {
+    /* box-shadow: 3px 6px 7px 8px  rgba(0, 0, 0, 0.74); */
+    background-color: rgba(0, 0, 0, 0.795);
     font-family: sans-serif;
-    font-size: 100px;
-    text-align: center;
-    border: 1px solid white;
+   /* border: 1px solid white; */
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     /* align-items: center; */
-    /* justify-content: center; */
+    justify-content: center;
     /* display: flex; */
     color: white;
     margin-top: -30px;
     margin-left: 350px;
     margin-right: 120px;
+    border-radius: 10px;
 }
 
 .join {
@@ -144,4 +145,49 @@ body {
 }
 .q{
     color: red;
+}
+.a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    border:none;
+    padding: 4px 62px;
+    /* margin-top: 60px; */
+    background-color: rgb(11, 7, 117);
+     font-size: 35px;
+     border-radius: 10px;
+}
+.email{
+     margin-top: 35px;
+     border: none;
+     box-sizing: content-box;
+     padding: 14px 48px;
+     background: transparent;
+     font-size: 16px;
+     color: white;
+     text-align:left;
+ border-bottom: 2px solid red;
+}
+.pass{
+    margin-top: 35px;
+     border: none;
+     box-sizing: content-box;
+     padding: 14px 48px;
+     background: transparent;
+     font-size: 16px;
+     color: white;
+     text-align:left;
+ border-bottom: 2px solid red;
+}
+.login{
+    text-decoration: none;
+    color:rgb(11, 7, 117);
+    border:none;
+    padding: 4px 105px;
+    /* color: white; */
+    /* margin-top: 60px; */
+    background-color: rgb(255, 255, 255);
+     font-size: 35px;
+     border-radius: 10px;
+     margin-top: 35px;
+
 }
