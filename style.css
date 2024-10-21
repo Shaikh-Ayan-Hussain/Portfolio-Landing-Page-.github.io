@@ -58,6 +58,7 @@ body {
 .listitems:hover {
     cursor: pointer;
     text-decoration: underline;
+    color:goldenrod;
 }
 
 .searchbar {
