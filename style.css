@@ -7,6 +7,8 @@ body {
     background-image: url('hand-1850120_960_720.jpg');
     background-repeat: no-repeat;
     background-size: 100% ;
+    background-position:center;
+    background-attachment: fixed;
 }
 
 .navbar {
