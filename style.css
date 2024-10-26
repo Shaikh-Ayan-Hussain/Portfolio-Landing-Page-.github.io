@@ -439,7 +439,7 @@ body {
 }
 
 .footer {
-    margin-left: 20px;
+    /* margin-left: 0px; */
     color: white;
     margin-top: 95px;
     width: 100%;
