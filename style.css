@@ -6,7 +6,7 @@
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.575)), url('hand-1850120_960_720.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
 }
@@ -292,35 +292,122 @@ body {
     margin-top: 70px;
     /* color: white; */
     width: 100%;
-
-
-    .im1 {
-        width: 350px;
-        color: white;
-        margin: 20px;
-        /* box-shadow: 0px 5px 15px white; */
-    }
-
-    .im1 img {
-        border-radius: 50%;
-        width: 95%;
-        height: 350px;
-    }
-
-    .id {
-        font-size: 28px;
-        font-weight: bolder;
-        color: whitesmoke;
-    font-family: sans-serif;
-    }
-
-.content2{
-        text-align: center;
-        margin-top: 18px;
-        padding: 15px;
 }
-.para{
+
+.im1 {
+    width: 350px;
+    color: white;
+    margin: 20px;
+}
+
+.im1 img {
+    border-radius: 50%;
+    width: 95%;
+    height: 350px;
+}
+
+.id {
+    font-size: 28px;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.content2 {
+    text-align: center;
+    margin-top: 18px;
+    padding: 15px;
+}
+
+.para {
     font-size: 18px;
     margin-top: 12px;
     color: rgb(228, 245, 0);
+}
+
+.ContactForm {
+    margin-top: 80px;
+    padding: 10px 40px;
+    border: 3px dashed red;
+    color: rgb(104, 187, 255);
+    font-size: 40px;
+    width: 50vw;
+    margin-bottom: 85px;
+}
+
+.form {
+    margin: auto;
+    width: 90%;
+    height: auto;
+    padding: 5px 20px;  
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    color: white;
+}
+
+.leftpart {
+    height: 560px;
+    width: 50%;
+}
+
+.heading {
+    font-size: 35px;
+    color:red;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+.detail{
+    height: auto;
+    width: auto;
+    /* background-color: rgba(255, 255, 255, 0); */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+  margin-left: 10px;
+  padding: 15px;
+  
+}
+
+.rightpart {
+    height: auto;
+    width: 50%;
+    /* border-radius: 5px; */
+
+}
+.Text{
+    margin: 15px 0px 10px 0px;
+    padding: 7px 19px;
+    width:95% ;
+}
+.Email{
+    width: 95%;
+    margin: 10px 0px 10px 0px;
+    padding: 7px 19px;
+}
+.Subject{
+    margin: 10px 0px 10px 0px;
+    width: 95%;
+    padding: 7px 19px;
+}
+.Message{
+    margin: 0px 0px 10px 0px;
+    width: 95%;
+    padding: 5px 5px;
+}
+.Submit{
+    margin-top: 5px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.edit{
+    font-size: 20px;
+    color: rgb(161, 161, 255);
 }
