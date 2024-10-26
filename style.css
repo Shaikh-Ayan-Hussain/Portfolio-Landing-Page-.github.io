@@ -5,15 +5,16 @@
 }
 
 *::-webkit-scrollbar {
-    display: none;
+    display: none;   
 }
 
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.575)), url('hand-1850120_960_720.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 100% 100%;
+    background-position:center;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -388,6 +389,7 @@ body {
 }
 
 .Text {
+    color: white;
     margin: 15px 0px 10px 0px;
     padding: 7px 19px;
     width: 95%;
@@ -397,6 +399,7 @@ body {
 }
 
 .Email {
+    color: white;
     width: 95%;
     margin: 10px 0px 10px 0px;
     padding: 7px 19px;
@@ -406,6 +409,7 @@ body {
 }
 
 .Subject {
+    color: white;
     margin: 10px 0px 10px 0px;
     width: 95%;
     padding: 7px 19px;
@@ -415,6 +419,7 @@ body {
 }
 
 .Message {
+    color: white;
     margin: 0px 0px 10px 0px;
     width: 95%;
     padding: 5px 5px;
@@ -424,6 +429,7 @@ body {
 }
 
 .Submit {
+
     margin-top: 5px;
     text-decoration: none;
     background-color: blue;
@@ -510,7 +516,7 @@ body {
 .end {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    /* justify-content: space-between; */
 }
 
 .end1 {
